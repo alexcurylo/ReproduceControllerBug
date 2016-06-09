@@ -15,8 +15,15 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
 
     func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
-        UINib(nibName: "TestController", bundle: nil).instantiateWithOwner(nil, options: nil)
-        // Override point for customization after application launch.
+        
+        /*
+         Apparently you must construct view controllers in Swift, not rely on nib autoloading
+         */
+        window = UIWindow()
+        let root = SwiftCollectionViewController(nibName: "SwiftCollectionViewController", bundle: nil)
+        window?.rootViewController = root
+        window?.makeKeyAndVisible()
+
         return true
     }
 
