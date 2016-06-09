@@ -10,8 +10,8 @@
 		F44736881D098F9200C8109B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F44736871D098F9200C8109B /* AppDelegate.swift */; };
 		F447368F1D098F9200C8109B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F447368E1D098F9200C8109B /* Assets.xcassets */; };
 		F44736921D098F9200C8109B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F44736901D098F9200C8109B /* LaunchScreen.storyboard */; };
-		F44736B61D098FC300C8109B /* TestController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F44736B51D098FC300C8109B /* TestController.xib */; };
-		F44736B81D0993B200C8109B /* MyCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F44736B71D0993B200C8109B /* MyCollectionViewController.swift */; };
+		FA203A341D0A021D004C1DA5 /* SwiftCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA203A321D0A021D004C1DA5 /* SwiftCollectionViewController.swift */; };
+		FA203A351D0A021D004C1DA5 /* SwiftCollectionViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FA203A331D0A021D004C1DA5 /* SwiftCollectionViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,8 +39,8 @@
 		F44736931D098F9200C8109B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F44736981D098F9200C8109B /* ReproduceControllerBugTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ReproduceControllerBugTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F44736A31D098F9200C8109B /* ReproduceControllerBugUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ReproduceControllerBugUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		F44736B51D098FC300C8109B /* TestController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TestController.xib; sourceTree = SOURCE_ROOT; };
-		F44736B71D0993B200C8109B /* MyCollectionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyCollectionViewController.swift; sourceTree = "<group>"; };
+		FA203A321D0A021D004C1DA5 /* SwiftCollectionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftCollectionViewController.swift; sourceTree = "<group>"; };
+		FA203A331D0A021D004C1DA5 /* SwiftCollectionViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SwiftCollectionViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -93,8 +93,8 @@
 				F447368E1D098F9200C8109B /* Assets.xcassets */,
 				F44736901D098F9200C8109B /* LaunchScreen.storyboard */,
 				F44736931D098F9200C8109B /* Info.plist */,
-				F44736B51D098FC300C8109B /* TestController.xib */,
-				F44736B71D0993B200C8109B /* MyCollectionViewController.swift */,
+				FA203A321D0A021D004C1DA5 /* SwiftCollectionViewController.swift */,
+				FA203A331D0A021D004C1DA5 /* SwiftCollectionViewController.xib */,
 			);
 			path = ReproduceControllerBug;
 			sourceTree = "<group>";
@@ -205,7 +205,7 @@
 			files = (
 				F44736921D098F9200C8109B /* LaunchScreen.storyboard in Resources */,
 				F447368F1D098F9200C8109B /* Assets.xcassets in Resources */,
-				F44736B61D098FC300C8109B /* TestController.xib in Resources */,
+				FA203A351D0A021D004C1DA5 /* SwiftCollectionViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -231,7 +231,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F44736881D098F9200C8109B /* AppDelegate.swift in Sources */,
-				F44736B81D0993B200C8109B /* MyCollectionViewController.swift in Sources */,
+				FA203A341D0A021D004C1DA5 /* SwiftCollectionViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -448,6 +448,7 @@
 				F44736AE1D098F9200C8109B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F44736AF1D098F9200C8109B /* Build configuration list for PBXNativeTarget "ReproduceControllerBugTests" */ = {
 			isa = XCConfigurationList;
@@ -456,6 +457,7 @@
 				F44736B11D098F9200C8109B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F44736B21D098F9200C8109B /* Build configuration list for PBXNativeTarget "ReproduceControllerBugUITests" */ = {
 			isa = XCConfigurationList;
@@ -464,6 +466,7 @@
 				F44736B41D098F9200C8109B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
